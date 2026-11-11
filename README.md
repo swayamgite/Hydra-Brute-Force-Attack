@@ -47,127 +47,23 @@ Virtualization| VMware
 
 📸 PRACTICAL IMPLEMENTATION AND SCREENSHOTS
 
-01. METASPLOITABLE IP ADDRESS
+![Metasploitable IP](./01_Metasploitable_IP.PNG)
 
-"Metasploitable IP" (./01_Metasploitable_IP.PNG)
+![Kali Desktop](./02_Kali_Desktop.jpg)
 
-Command Used:
+![Hydra Installation](./03_Hydra_Installation.PNG)
 
-ifconfig
+![Nmap Service Detection](./04_Nmap_Service_Detection.PNG)
 
-Description:
+![Password File](./05_Swayapass_File.PNG)
 
-Identified the IP address of the Metasploitable 2 target machine for lab testing.
+![Password File Verification](./06_Password_File_Verification.PNG)
 
----
+![FTP Service Result](./07_FTP_Service_Result.PNG)
 
-02. KALI LINUX DESKTOP
+![Hydra Final Testing](./09_Hydra_Final_Testing.PNG)
 
-"Kali Desktop" (./02_Kali_Desktop.jpg)
-
-Description:
-
-Started the Kali Linux virtual machine and prepared the environment for security testing.
-
----
-
-03. HYDRA INSTALLATION
-
-"Hydra Installation" (./03_Hydra_Installation.PNG)
-
-Command Used:
-
-sudo apt install hydra
-
-Description:
-
-Installed Hydra, a password security testing tool used for authentication testing.
-
----
-
-04. NMAP SERVICE DETECTION
-
-"Nmap Service Detection" (./04_Nmap_Service_Detection.PNG)
-
-Command Used:
-
-nmap -sV -p 21 <TARGET-IP>
-
-Description:
-
-Scanned the target machine to identify the FTP service and detect its version.
-
----
-
-05. PASSWORD FILE
-
-"Password File" (./05_Swayapass_File.PNG)
-
-Command Used:
-
-cat password.txt
-
-Description:
-
-Prepared a password list for controlled authentication security testing.
-
----
-
-06. PASSWORD FILE VERIFICATION
-
-"Password File Verification" (./06_Password_File_Verification.PNG)
-
-Command Used:
-
-ls -l
-
-Description:
-
-Verified the password file and checked its availability in the working directory.
-
----
-
-07. FTP SERVICE RESULT
-
-"FTP Service Result" (./07_FTP_Service_Result.PNG)
-
-Command Used:
-
-ftp <TARGET-IP>
-
-Description:
-
-Connected to the target FTP service and examined its authentication process.
-
----
-
-08. HYDRA FINAL TESTING
-
-"Hydra Final Testing" (./09_Hydra_Final_Testing.PNG)
-
-Command Used:
-
-hydra -l <USERNAME> -P password.txt ftp://<TARGET-IP>
-
-Description:
-
-Performed authorized FTP password testing using Hydra against the isolated Metasploitable 2 lab machine.
-
----
-
-09. FTP FINAL CONNECTION
-
-"FTP Final Connection" (./10_FTP_IP_Connection.PNG)
-
-Command Used:
-
-ftp <TARGET-IP>
-
-Description:
-
-Verified FTP connectivity with the target machine after completing the security testing.
-
----
+![FTP Final Connection](./10_FTP_IP_Connection.PNG)
 
 🔐 SECURITY RECOMMENDATIONS
 
