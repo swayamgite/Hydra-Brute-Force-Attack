@@ -1,50 +1,73 @@
-🛡️ Hydra-Based Brute Force Attack Demonstration
+##🛡️ Hydra-Based Brute Force Attack Demonstration
 
-📌 Introduction
+#Introduction
 
-This project demonstrates the working concepts of Brute Force Attacks using the Hydra tool in an authorized cybersecurity lab environment.
+This project demonstrates FTP authentication security testing using Hydra in a controlled Metasploitable 2 lab environment.
 
-🎯 Objectives
-
-- Understand Brute Force Attacks.
-- Learn about the Hydra tool.
-- Understand authentication security.
-- Study attack detection techniques.
-- Learn prevention methods.
-
-🛠️ Tools & Technologies
+Tools Used
 
 - Kali Linux
-- THC Hydra
-- Virtual Lab Environment
+- Hydra
+- Nmap
+- Metasploitable 2
+- FTP
 
-📚 Project Modules
+Project Objectives
 
-1. Introduction to Hydra
-2. Brute Force Attack Concepts
-3. Hydra Installation
-4. Authorized Lab Setup
-5. Practical Demonstration
-6. Attack Detection
-7. Prevention Techniques
-8. Conclusion
+- Understand Brute Force Attack concepts.
+- Learn about Hydra.
+- Identify FTP services using Nmap.
+- Understand password security.
 
-🔐 Security Measures
+Practical Screenshots
+
+01. Metasploitable IP Address
+
+"Metasploitable IP" (Screenshots/01_Metasploitable_IP.png)
+
+02. Kali Linux Desktop
+
+"Kali Desktop" (Screenshots/02_Kali_Desktop.png)
+
+03. Hydra Installation
+
+"Hydra Installation" (Screenshots/03_Hydra_Installation.png)
+
+04. Nmap Service Detection
+
+"Nmap Scan" (Screenshots/04_Nmap_Service_Detection.png)
+
+05. Password File
+
+"Password File" (Screenshots/05_Rampass_File.png)
+
+06. FTP Service Information
+
+"FTP Information" (Screenshots/06_FTP_Connection.png)
+
+07. FTP Service Result
+
+"FTP Result" (Screenshots/07_FTP_Service_Result.png)
+
+08. FTP Connection
+
+"FTP Connection" (Screenshots/08_FTP_Connection.png)
+
+09. Hydra Testing
+
+"Hydra Testing" (Screenshots/09_Hydra_Final_Testing.png)
+
+10. FTP Final Connection
+
+"FTP Final" (Screenshots/10_FTP_IP_Connection.png)
+
+Security Recommendations
 
 - Use strong passwords.
 - Enable Multi-Factor Authentication.
-- Implement account lockout policies.
+- Apply login rate limiting.
 - Monitor failed login attempts.
-- Use rate limiting.
 
-⚠️ Disclaimer
+Disclaimer
 
-This project is created for educational purposes only. All practical demonstrations must be performed on systems owned by the student or with explicit permission.
-
-👩‍💻 Author
-
-Cyber Security Student
-
-#️⃣ Tags
-
-#CyberSecurity #KaliLinux #Hydra #BruteForceAttack #EthicalHacking
+This project is for educational purposes only and uses an isolated lab environment.
