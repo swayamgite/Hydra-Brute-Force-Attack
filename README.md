@@ -47,59 +47,23 @@ Virtualization| VMware
 
 📸 PRACTICAL IMPLEMENTATION AND SCREENSHOTS
 
-01. METASPLOITABLE IP ADDRESS
+![Metasploitable IP](./01_Metasploitable_IP.PNG)
 
-This screenshot shows the IP address of the Metasploitable 2 target machine.
+![Kali Desktop](./02_Kali_Desktop.jpg)
 
-"Metasploitable IP" (./01_Metasploitable_IP.PNG)
+![Hydra Installation](./03_Hydra_Installation.PNG)
 
-02. KALI LINUX DESKTOP
+![Nmap Service Detection](./04_Nmap_Service_Detection.PNG)
 
-This screenshot shows the Kali Linux desktop environment used for security testing.
+![Password File](./05_Swayapass_File.PNG)
 
-"Kali Desktop" (./02_Kali_Desktop.jpg)
+![Password File Verification](./06_Password_File_Verification.PNG)
 
-03. HYDRA INSTALLATION
+![FTP Service Result](./07_FTP_Service_Result.PNG)
 
-This screenshot demonstrates the installation of the Hydra tool in Kali Linux.
+![Hydra Final Testing](./09_Hydra_Final_Testing.PNG)
 
-"Hydra Installation" (./03_Hydra_Installation.PNG)
-
-04. NMAP SERVICE DETECTION
-
-This screenshot shows the Nmap scan used to identify open ports and running services on the target machine.
-
-"Nmap Service Detection" (./04_Nmap_Service_Detection.PNG)
-
-05. PASSWORD FILE
-
-This screenshot shows the password list prepared for authentication security testing.
-
-"Password File" (./05_Samypass_File.PNG)
-
-06. PASSWORD FILE VERIFICATION
-
-This screenshot demonstrates the password file verification process.
-
-"Password File Verification" (./06_Password_File_Verification.PNG)
-
-07. FTP SERVICE RESULT
-
-This screenshot displays the FTP service testing result.
-
-"FTP Service Result" (./07_FTP_Service_Result.PNG)
-
-09. HYDRA FINAL TESTING
-
-This screenshot demonstrates FTP authentication testing using Hydra in the controlled lab environment.
-
-"Hydra Final Testing" (./09_Hydra_Final_Testing.PNG)
-
-10. FTP FINAL CONNECTION
-
-This screenshot shows the final FTP connection verification with the target machine.
-
-"FTP Final Connection" (./10_FTP_IP_Connection.PNG)
+![FTP Final Connection](./10_FTP_IP_Connection.PNG)
 
 ---
 
