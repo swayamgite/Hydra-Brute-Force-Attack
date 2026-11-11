@@ -1,6 +1,6 @@
-🛡️ Hydra-Based Brute Force Attack Demonstration
+🛡️ HYDRA-BASED BRUTE FORCE ATTACK DEMONSTRATION
 
-📌 Introduction
+📌 INTRODUCTION
 
 This project demonstrates an FTP Brute Force Attack using Hydra in a controlled and isolated lab environment.
 
@@ -8,15 +8,20 @@ The practical is performed using Kali Linux as the attacking machine and Metaspl
 
 The main purpose of this project is to understand how brute force attacks work, how Hydra is used for password testing, and why strong password security is important.
 
-🛠️ Tools and Technologies Used
+---
 
-- Kali Linux – Attacking machine
-- Hydra – Brute force testing tool
-- Nmap – Network scanning and service detection
-- Metasploitable 2 – Vulnerable target machine
+🛠️ TOOLS AND TECHNOLOGIES USED
+
+- Kali Linux – Attacking Machine
+- Hydra – Brute Force Testing Tool
+- Nmap – Network Scanning and Service Detection
+- Metasploitable 2 – Vulnerable Target Machine
 - FTP – File Transfer Protocol
+- VMware – Virtualization Platform
 
-🎯 Project Objectives
+---
+
+🎯 PROJECT OBJECTIVES
 
 - Understand the concept of Brute Force Attacks.
 - Learn how to use the Hydra tool.
@@ -25,104 +30,115 @@ The main purpose of this project is to understand how brute force attacks work, 
 - Understand weak password vulnerabilities.
 - Learn the importance of strong password security.
 
-🧪 Lab Environment
+---
 
-Attacker Machine: Kali Linux
+🧪 LAB ENVIRONMENT
 
-Target Machine: Metasploitable 2
+Component| Details
+Attacker Machine| Kali Linux
+Target Machine| Metasploitable 2
+Testing Tool| Hydra
+Scanning Tool| Nmap
+Target Service| FTP
+Default FTP Port| 21
+Virtualization| VMware
 
-Target Service: FTP (Port 21)
+---
 
-Testing Tool: Hydra
+📸 PRACTICAL SCREENSHOTS
 
-Environment: VMware Virtual Machine
-
-📸 Practical Screenshots
-
-01. Metasploitable IP Address
+01. METASPLOITABLE IP ADDRESS
 
 This screenshot shows the IP address of the Metasploitable 2 target machine.
 
-"Metasploitable IP" (Screenshots/01_Metasploitable_IP.png)
+"Metasploitable IP" (01_Metasploitable_IP.PNG)
 
-02. Kali Linux Desktop
+02. KALI LINUX DESKTOP
 
 This screenshot shows the Kali Linux desktop environment used for security testing.
 
-"Kali Desktop" (Screenshots/02_Kali_Desktop.png)
+"Kali Desktop" (02_Kali_Desktop.jpg)
 
-03. Hydra Installation
+03. HYDRA INSTALLATION
 
 This screenshot demonstrates the installation of the Hydra tool in Kali Linux.
 
-"Hydra Installation" (Screenshots/03_Hydra_Installation.png)
+"Hydra Installation" (03_Hydra_Installation.PNG)
 
-04. Nmap Service Detection
+04. NMAP SERVICE DETECTION
 
 This screenshot shows the Nmap scan used to identify open ports and running services on the target machine.
 
-"Nmap Scan" (Screenshots/04_Nmap_Service_Detection.png)
+"Nmap Service Detection" (04_Nmap_Service_Detection.PNG)
 
-05. Password File
+05. PASSWORD FILE
 
-This screenshot shows the password list used for authentication security testing.
+This screenshot shows the password list prepared for authentication security testing.
 
-"Password File" (Screenshots/05_Rampass_File.png)
+"Password File" (05_Samypass_File.PNG)
 
-06. FTP Service Information
+06. PASSWORD FILE VERIFICATION
 
-This screenshot shows FTP service information identified during the practical.
+This screenshot demonstrates the password file verification process.
 
-"FTP Information" (Screenshots/06_FTP_Connection.png)
+"Password File Verification" (06_Password_File_Verification.PNG)
 
-07. FTP Service Result
+07. FTP SERVICE RESULT
 
 This screenshot displays the FTP service testing result.
 
-"FTP Result" (Screenshots/07_FTP_Service_Result.png)
+"FTP Service Result" (07_FTP_Service_Result.PNG)
 
-08. FTP Connection
+08. HYDRA FINAL TESTING
 
-This screenshot demonstrates the FTP connection with the target machine.
+This screenshot demonstrates FTP authentication testing using Hydra in the controlled lab environment.
 
-"FTP Connection" (Screenshots/08_FTP_Connection.png)
+"Hydra Final Testing" (08_Hydra_Final_Testing.PNG)
 
-09. Hydra Testing
+09. FTP FINAL CONNECTION
 
-This screenshot demonstrates FTP authentication testing using Hydra in the lab environment.
+This screenshot shows the final FTP connection verification with the target machine.
 
-"Hydra Testing" (Screenshots/09_Hydra_Final_Testing.png)
+"FTP Final Connection" (10_FTP_IP_Connection.PNG)
 
-10. FTP Final Connection
+---
 
-This screenshot shows the final FTP connection verification.
-
-"FTP Final" (Screenshots/10_FTP_IP_Connection.png)
-
-🔐 Security Recommendations
+🔐 SECURITY RECOMMENDATIONS
 
 - Use Strong Passwords: Create long and complex passwords.
 - Enable Multi-Factor Authentication (MFA): Add an extra layer of account security.
 - Implement Login Rate Limiting: Restrict repeated login attempts.
 - Monitor Failed Login Attempts: Regularly check authentication logs.
 - Disable Unused Services: Reduce unnecessary network exposure.
-- Use Secure Protocols: Prefer secure alternatives to FTP, such as SFTP.
+- Use Secure Protocols: Prefer secure alternatives such as SFTP instead of FTP.
 
-📚 Learning Outcomes
+---
+
+📚 LEARNING OUTCOMES
 
 Through this project, I learned:
 
-- Basic concepts of brute force attacks.
-- Installation and usage of Hydra.
-- Network scanning using Nmap.
-- FTP service identification and testing.
-- Password security and authentication risks.
-- Basic security recommendations against brute force attacks.
+- Brute Force Attacks: Basic concepts and working.
+- Hydra: Installation and usage.
+- Nmap: Network scanning and service detection.
+- FTP: Service identification and testing.
+- Password Security: Understanding authentication risks.
+- Security Measures: Protection against brute force attacks.
 
-⚠️ Disclaimer
+---
+
+⚠️ DISCLAIMER
 
 This project is created strictly for educational and cybersecurity learning purposes.
 
 All testing was performed in an isolated lab environment using Metasploitable 2.
 
 Unauthorized access or testing against systems without permission is strictly prohibited.
+
+---
+
+👨‍💻 AUTHOR
+
+Swayam Gite
+
+Cyber Security Enthusiast | Aspiring SOC Analyst
