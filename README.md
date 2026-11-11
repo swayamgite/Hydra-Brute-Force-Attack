@@ -75,7 +75,7 @@ This screenshot shows the Nmap scan used to identify open ports and running serv
 
 This screenshot shows the password list prepared for authentication security testing.
 
-"Password File" (05_Samypass_File.PNG)
+"Password File" (05_Swayapass_File.PNG)
 
 06. PASSWORD FILE VERIFICATION
 
