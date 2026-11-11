@@ -2,44 +2,50 @@
 
 📌 INTRODUCTION
 
-This project demonstrates FTP authentication security testing using Hydra in a controlled and isolated lab environment.
+This project demonstrates an FTP Brute Force Attack using Hydra in a controlled and isolated lab environment.
 
 The practical is performed using Kali Linux as the attacking machine and Metasploitable 2 as the target machine.
 
-The main objective is to understand brute force attacks, identify FTP services, perform password security testing, and learn security protection techniques.
+The main purpose of this project is to understand how brute force attacks work, how Hydra is used for password testing, and why strong password security is important.
 
-🛠️ TOOLS USED
+---
 
-- Kali Linux
-- Hydra
-- Nmap
-- Metasploitable 2
-- FTP
-- VMware
+🛠️ TOOLS AND TECHNOLOGIES USED
+
+- Kali Linux – Attacking Machine
+- Hydra – Brute Force Testing Tool
+- Nmap – Network Scanning and Service Detection
+- Metasploitable 2 – Vulnerable Target Machine
+- FTP – File Transfer Protocol
+- VMware – Virtualization Platform
+
+---
 
 🎯 PROJECT OBJECTIVES
 
-- Understand Brute Force Attack concepts.
-- Learn Hydra tool usage.
+- Understand the concept of Brute Force Attacks.
+- Learn how to use the Hydra tool.
 - Identify FTP services using Nmap.
-- Perform FTP authentication testing.
-- Understand weak password security.
-- Learn preventive security measures.
+- Perform FTP authentication security testing.
+- Understand weak password vulnerabilities.
+- Learn the importance of strong password security.
+
+---
 
 🧪 LAB ENVIRONMENT
 
 Component| Details
 Attacker Machine| Kali Linux
 Target Machine| Metasploitable 2
-Target Service| FTP
-Port Number| 21
 Testing Tool| Hydra
 Scanning Tool| Nmap
-Platform| VMware
+Target Service| FTP
+Default FTP Port| 21
+Virtualization| VMware
 
 ---
 
-📸 PRACTICAL IMPLEMENTATION
+📸 PRACTICAL IMPLEMENTATION AND SCREENSHOTS
 
 01. METASPLOITABLE IP ADDRESS
 
@@ -95,7 +101,7 @@ Scanned the target machine to identify the FTP service and detect its version.
 
 05. PASSWORD FILE
 
-"Password File" (./05_Samypass_File.PNG)
+"Password File" (./05_Swayapass_File.PNG)
 
 Command Used:
 
@@ -145,7 +151,7 @@ hydra -l <USERNAME> -P password.txt ftp://<TARGET-IP>
 
 Description:
 
-Performed authorized FTP password testing against the isolated Metasploitable 2 lab machine using Hydra.
+Performed authorized FTP password testing using Hydra against the isolated Metasploitable 2 lab machine.
 
 ---
 
@@ -165,12 +171,12 @@ Verified FTP connectivity with the target machine after completing the security 
 
 🔐 SECURITY RECOMMENDATIONS
 
-- Strong Passwords: Use long and complex passwords.
-- Multi-Factor Authentication: Enable an additional authentication layer.
-- Login Rate Limiting: Restrict repeated login attempts.
-- Log Monitoring: Monitor failed login attempts.
-- Secure Protocols: Prefer SFTP instead of FTP.
+- Use Strong Passwords: Create long and complex passwords.
+- Enable Multi-Factor Authentication: Add an extra layer of account security.
+- Implement Login Rate Limiting: Restrict repeated login attempts.
+- Monitor Failed Login Attempts: Regularly check authentication logs.
 - Disable Unused Services: Reduce unnecessary network exposure.
+- Use Secure Protocols: Prefer SFTP instead of FTP.
 
 ---
 
@@ -178,12 +184,12 @@ Verified FTP connectivity with the target machine after completing the security 
 
 Through this project, I learned:
 
-- Brute Force Attack concepts.
-- Hydra installation and usage.
-- Nmap network scanning.
-- FTP service detection and testing.
-- Password security risks.
-- Basic security protection techniques.
+- Basic concepts of Brute Force Attacks.
+- Installation and usage of Hydra.
+- Network scanning using Nmap.
+- FTP service identification and testing.
+- Password security and authentication risks.
+- Basic security measures against brute force attacks.
 
 ---
 
@@ -201,4 +207,4 @@ Unauthorized access or testing against systems without permission is strictly pr
 
 Swayam Gite
 
-Cyber Security Enthusiast | Aspiring SOC Analyst                                 
+Cyber Security Enthusiast | Aspiring SOC Analyst
