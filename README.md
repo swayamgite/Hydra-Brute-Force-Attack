@@ -53,7 +53,7 @@ Information:
 
 Metasploitable 2 is an intentionally vulnerable virtual machine used as a target system for cybersecurity practical exercises.
 
-"Metasploitable IP" (./01_Metasploitable_IP.PNG)
+![Metasploitable IP"](./01_Metasploitable_IP.PNG)
 
 Command:
 
@@ -73,7 +73,7 @@ Information:
 
 Kali Linux is a Debian-based Linux distribution designed for penetration testing and security auditing.
 
-"Kali Desktop" (./02_Kali_Desktop.jpg)
+![Kali Desktop](./02_Kali_Desktop.jpg)
 
 Tools Used:
 
@@ -94,7 +94,7 @@ Information:
 
 Hydra is a password-testing tool used to check login security by performing authorized login attempts against supported network services.
 
-"Hydra Installation" (./03_Hydra_Installation.PNG)
+![Hydra Installation](./03_Hydra_Installation.PNG)
 
 Command:
 
@@ -119,7 +119,7 @@ Information:
 
 Nmap is a network scanning tool used to discover open ports and identify running services on a target machine.
 
-"Nmap Service Detection" (./04_Nmap_Service_Detection.PNG)
+![Nmap Service Detection](./04_Nmap_Service_Detection.PNG)
 
 Command:
 
@@ -139,7 +139,7 @@ Information:
 
 A password list is a text file containing multiple password entries used for authorized password security testing.
 
-"Password File" (./05_Swayapass_File.PNG)
+![Password File](./05_Swayapass_File.PNG)
 
 Command:
 
@@ -159,7 +159,7 @@ Information:
 
 After creating the password file, it is important to verify its contents before using it in the testing process.
 
-"Password File Verification" (./06_Password_File_Verification.PNG)
+![Password File Verification](./06_Password_File_Verification.PNG)
 
 Command:
 
@@ -181,7 +181,7 @@ FTP (File Transfer Protocol) is a network protocol used to transfer files betwee
 
 Port 21 is the standard control port used by FTP.
 
-"FTP Service Result" (./07_FTP_Service_Result.PNG)
+![FTP Service Result](./07_FTP_Service_Result.PNG)
 
 Command:
 
@@ -201,7 +201,7 @@ Information:
 
 Hydra is used to perform authorized password testing against the FTP service using a username and a custom password list.
 
-"Hydra Final Testing" (./09_Hydra_Final_Testing.PNG)
+![Hydra Final Testing](./09_Hydra_Final_Testing.PNG)
 
 Command:
 
@@ -229,7 +229,7 @@ Information:
 
 After identifying valid login credentials during authorized testing, an FTP connection can be established to verify the login.
 
-"FTP Final Connection" (./10_FTP_IP_Connection.PNG)
+![FTP Final Connection](./10_FTP_IP_Connection.PNG)
 
 Command:
 
